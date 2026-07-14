@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Sentiment & Public Opinion Dashboard</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="brand-header">
+                <div class="logo-box">
+                    <svg viewBox="0 0 24 24" width="24" height="24" class="logo-icon">
+                        <path d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4M12,6A6,6 0 0,0 6,12A6,6 0 0,0 12,18A6,6 0 0,0 18,12A6,6 0 0,0 12,6M12,8A4,4 0 0,1 16,12A4,4 0 0,1 12,16A4,4 0 0,1 8,12A4,4 0 0,1 12,8Z" fill="currentColor"/>
+                    </svg>
+                </div>
+                <h2>Sentilytics</h2>
+            </div>
+            
+            <nav class="nav-menu">
+                <button class="nav-item active" data-tab="overview">
+                    <svg viewBox="0 0 24 24" width="20" height="20"><path d="M10,20H14V14H10V20M21,20H25V8H21V20M12,2L2,22H22L12,2M12,6.8L19.2,18H4.8L12,6.8M4,20H8V12H4V20Z" fill="currentColor"/></svg>
+                    Overview
+                </button>
+                <button class="nav-item" data-tab="brands">
+                    <svg viewBox="0 0 24 24" width="20" height="20"><path d="M16,11.78L20.24,4.45L21.97,5.45L16.74,14.5L10.23,10.75L5.46,19H22V21H2V3H4V17.54L9.5,8L16,11.78Z" fill="currentColor"/></svg>
+                    Brand Analysis
+                </button>
+                <button class="nav-item" data-tab="tweets">
+                    <svg viewBox="0 0 24 24" width="20" height="20"><path d="M9,22A1,1 0 0,1 8,21V18H4A2,2 0 0,1 2,16V4C2,2.89 2.9,2 4,2H20A2,2 0 0,1 22,4V16A2,2 0 0,1 20,18H13.9L10.2,21.71C10,21.9 9.75,22 9,22M10,16V19.08L13.08,16H20V4H4V16H10Z" fill="currentColor"/></svg>
+                    Tweet Explorer
+                </button>
+            </nav>
+            
+            <div class="sidebar-footer">
+                <p>Prodigy InfoTech Task 4</p>
+                <small>Sentiment Analysis Dashboard</small>
+            </div>
+        </aside>
+
+        <!-- Main Workspace -->
+        <main class="main-content">
+            <!-- Top Navbar -->
+            <header class="navbar">
+                <div class="nav-title">
+                    <h1>Social Media Sentiment Analysis</h1>
+                    <p>Understanding public opinion and attitudes towards brands & topics</p>
+                </div>
+                
+                <div class="filter-wrapper">
+                    <label for="entity-filter">Select Brand/Topic:</label>
+                    <select id="entity-filter">
+                        <option value="all">All Brands / Topics (Global)</option>
+                        <!-- Options filled dynamically -->
+                    </select>
+                </div>
+            </header>
+
+            <!-- Dashboard Content Tabs -->
+            <div class="content-body">
+                
+                <!-- OVERVIEW TAB -->
+                <section id="overview-tab" class="tab-content active">
+                    <!-- KPI Cards Grid -->
+                    <div class="kpi-grid">
+                        <div class="kpi-card">
+                            <div class="kpi-header">
+                                <span>Total Analyzed Tweets</span>
+                                <div class="kpi-icon blue">#</div>
+                            </div>
+                            <h3 id="kpi-total">0</h3>
+                            <p class="kpi-meta">Cleaned and unique records</p>
+                        </div>
+                        
+                        <div class="kpi-card">
+                            <div class="kpi-header">
+                                <span>Positive Sentiment Ratio</span>
+                                <div class="kpi-icon green">
+                                    <svg viewBox="0 0 24 24" width="16" height="16"><path d="M23,10C23,9.5 22.75,9 22.25,8.75L13.75,4.5C12.75,4 11.25,4 10.25,4.5L1.75,8.75C1.25,9 1,9.5 1,10V14C1,14.5 1.25,15 1.75,15.25L10.25,19.5C10.75,19.75 11.25,20 12,20C12.75,20 13.25,19.75 13.75,19.5L22.25,15.25C22.75,15 23,14.5 23,14V10Z" fill="currentColor"/></svg>
+                                </div>
+                            </div>
+                            <h3 id="kpi-positive">0%</h3>
+                            <p class="kpi-meta" id="kpi-positive-count">0 tweets</p>
+                        </div>
+
+                        <div class="kpi-card">
+                            <div class="kpi-header">
+                                <span>Negative Sentiment Ratio</span>
+                                <div class="kpi-icon red">
+                                    <svg viewBox="0 0 24 24" width="16" height="16"><path d="M1,14C1,14.5 1.25,15 1.75,15.25L10.25,19.5C11.25,20 12.75,20 13.75,19.5L22.25,15.25C22.75,15 23,14.5 23,14V10C23,9.5 22.75,9 22.25,8.75L13.75,4.5C13.25,4.25 12.75,4 12,4C11.25,4 10.75,4.25 10.25,4.5L1.75,8.75C1.25,9 1,9.5 1,10V14Z" fill="currentColor"/></svg>
+                                </div>
+                            </div>
+                            <h3 id="kpi-negative">0%</h3>
+                            <p class="kpi-meta" id="kpi-negative-count">0 tweets</p>
+                        </div>
+
+                        <div class="kpi-card">
+                            <div class="kpi-header">
+                                <span>Avg Tweet Length</span>
+                                <div class="kpi-icon purple">
+                                    <svg viewBox="0 0 24 24" width="16" height="16"><path d="M18.5,4L19.66,8.3H24V9.8H22.68L21.36,14.7H24V16.2H20.96L19.8,20H18.3L19.46,16.2H14.5L13.34,20H11.84L13,16.2H9.5V14.7H13.41L14.73,9.8H11V8.3H15.15L16.31,4H17.81L16.65,8.3H21.61L22.77,4H18.5M16.21,9.8L14.89,14.7H19.85L21.17,9.8H16.21Z" fill="currentColor"/></svg>
+                                </div>
+                            </div>
+                            <h3 id="kpi-length">0 words</h3>
+                            <p class="kpi-meta" id="kpi-char-length">0 chars avg</p>
+                        </div>
+                    </div>
+
+                    <!-- Main Charts Section -->
+                    <div class="charts-row">
+                        <!-- Left Chart: Overall Sentiment Breakout -->
+                        <div class="chart-card flex-40">
+                            <div class="chart-title-area">
+                                <h3>Sentiment Breakdown</h3>
+                                <p>Proportion of positive, negative, neutral, and irrelevant tweets</p>
+                            </div>
+                            <div class="canvas-container doughnut-height">
+                                <canvas id="sentimentDoughnutChart"></canvas>
+                            </div>
+                        </div>
+
+                        <!-- Right Chart: Word Frequency Analysis -->
+                        <div class="chart-card flex-60">
+                            <div class="chart-title-area">
+                                <h3>Top Discussion Terms</h3>
+                                <p>Most frequent words used (filtered to remove stopwords)</p>
+                            </div>
+                            <div class="canvas-container">
+                                <canvas id="topWordsChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Bottom Chart Row -->
+                    <div class="charts-row">
+                        <!-- Left: Tweet Length Distribution -->
+                        <div class="chart-card flex-100">
+                            <div class="chart-title-area">
+                                <h3>Tweet Character Length Distribution</h3>
+                                <p>Histogram of tweet character lengths grouped by sentiment category</p>
+                            </div>
+                            <div class="canvas-container length-histogram-height">
+                                <canvas id="lengthDistributionChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- BRANDS COMPARISON TAB -->
+                <section id="brands-tab" class="tab-content">
+                    <div class="charts-row">
+                        <div class="chart-card flex-100">
+                            <div class="chart-title-area">
+                                <h3>Brand Sentiment Profile Comparison</h3>
+                                <p>Compare sentiment distributions across all 32 tracked entities and brands</p>
+                            </div>
+                            <div class="canvas-container comparison-bar-height">
+                                <canvas id="brandComparisonChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="brand-stats-table-wrapper">
+                        <h3>Detailed Sentiment Statistics by Brand</h3>
+                        <table class="brand-table">
+                            <thead>
+                                <tr>
+                                    <th>Brand / Entity</th>
+                                    <th>Total Tweets</th>
+                                    <th>Positive %</th>
+                                    <th>Negative %</th>
+                                    <th>Neutral %</th>
+                                    <th>Irrelevant %</th>
+                                    <th>Avg Words</th>
+                                </tr>
+                            </thead>
+                            <tbody id="brand-table-body">
+                                <!-- Populated dynamically -->
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <!-- TWEETS EXPLORER TAB -->
+                <section id="tweets-tab" class="tab-content">
+                    <div class="explorer-layout">
+                        <!-- Filters panel -->
+                        <div class="explorer-filters">
+                            <h3>Filter Tweets</h3>
+                            <div class="filter-group">
+                                <label for="explorer-sentiment">Sentiment</label>
+                                <select id="explorer-sentiment">
+                                    <option value="all">All Sentiments</option>
+                                    <option value="Positive">Positive</option>
+                                    <option value="Negative">Negative</option>
+                                    <option value="Neutral">Neutral</option>
+                                    <option value="Irrelevant">Irrelevant</option>
+                                </select>
+                            </div>
+                            <div class="filter-group">
+                                <label for="explorer-search">Search Keyword</label>
+                                <input type="text" id="explorer-search" placeholder="Type to search text...">
+                            </div>
+                            <button id="reset-explorer-btn" class="secondary-btn">Reset Filters</button>
+                        </div>
+                        
+                        <!-- Tweets results panel -->
+                        <div class="explorer-results">
+                            <div class="results-header">
+                                <h3 id="explorer-match-count">Showing 0 tweets</h3>
+                                <div class="pagination">
+                                    <button id="prev-page-btn" class="page-btn" disabled>&larr; Prev</button>
+                                    <span id="page-num-indicator">Page 1 of 1</span>
+                                    <button id="next-page-btn" class="page-btn" disabled>Next &rarr;</button>
+                                </div>
+                            </div>
+                            
+                            <div id="tweets-list" class="tweets-grid">
+                                <!-- Populated dynamically -->
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </main>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>

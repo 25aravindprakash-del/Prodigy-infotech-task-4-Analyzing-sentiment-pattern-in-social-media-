@@ -1,0 +1,2387 @@
+{
+  "overall": {
+    "total_tweets": 71656,
+    "sentiment_counts": {
+      "Negative": 21698,
+      "Positive": 19713,
+      "Neutral": 17708,
+      "Irrelevant": 12537
+    },
+    "sentiment_percentages": {
+      "Negative": 30.3,
+      "Positive": 27.5,
+      "Neutral": 24.7,
+      "Irrelevant": 17.5
+    },
+    "avg_char_length": 110.5,
+    "avg_word_count": 19.5
+  },
+  "entities": {
+    "Amazon": {
+      "total": 2249,
+      "sentiment_counts": {
+        "Neutral": 1197,
+        "Negative": 565,
+        "Positive": 302,
+        "Irrelevant": 185
+      },
+      "avg_word_count": 23.3
+    },
+    "ApexLegends": {
+      "total": 2278,
+      "sentiment_counts": {
+        "Neutral": 913,
+        "Positive": 606,
+        "Negative": 574,
+        "Irrelevant": 185
+      },
+      "avg_word_count": 15.9
+    },
+    "AssassinsCreed": {
+      "total": 2156,
+      "sentiment_counts": {
+        "Positive": 1382,
+        "Negative": 365,
+        "Irrelevant": 256,
+        "Neutral": 153
+      },
+      "avg_word_count": 19.0
+    },
+    "Battlefield": {
+      "total": 2255,
+      "sentiment_counts": {
+        "Irrelevant": 907,
+        "Positive": 561,
+        "Negative": 445,
+        "Neutral": 342
+      },
+      "avg_word_count": 18.1
+    },
+    "Borderlands": {
+      "total": 2206,
+      "sentiment_counts": {
+        "Positive": 972,
+        "Neutral": 581,
+        "Negative": 415,
+        "Irrelevant": 238
+      },
+      "avg_word_count": 22.4
+    },
+    "CS-GO": {
+      "total": 2195,
+      "sentiment_counts": {
+        "Positive": 717,
+        "Irrelevant": 620,
+        "Neutral": 523,
+        "Negative": 335
+      },
+      "avg_word_count": 19.0
+    },
+    "CallOfDuty": {
+      "total": 2314,
+      "sentiment_counts": {
+        "Negative": 861,
+        "Irrelevant": 660,
+        "Positive": 426,
+        "Neutral": 367
+      },
+      "avg_word_count": 19.8
+    },
+    "CallOfDutyBlackopsColdWar": {
+      "total": 2242,
+      "sentiment_counts": {
+        "Positive": 817,
+        "Irrelevant": 545,
+        "Negative": 540,
+        "Neutral": 340
+      },
+      "avg_word_count": 15.4
+    },
+    "Cyberpunk2077": {
+      "total": 2175,
+      "sentiment_counts": {
+        "Positive": 902,
+        "Irrelevant": 457,
+        "Neutral": 456,
+        "Negative": 360
+      },
+      "avg_word_count": 17.4
+    },
+    "Dota2": {
+      "total": 2225,
+      "sentiment_counts": {
+        "Negative": 705,
+        "Neutral": 579,
+        "Positive": 540,
+        "Irrelevant": 401
+      },
+      "avg_word_count": 15.1
+    },
+    "FIFA": {
+      "total": 2238,
+      "sentiment_counts": {
+        "Negative": 1127,
+        "Irrelevant": 538,
+        "Positive": 473,
+        "Neutral": 100
+      },
+      "avg_word_count": 19.4
+    },
+    "Facebook": {
+      "total": 2289,
+      "sentiment_counts": {
+        "Neutral": 773,
+        "Negative": 690,
+        "Irrelevant": 672,
+        "Positive": 154
+      },
+      "avg_word_count": 22.4
+    },
+    "Fortnite": {
+      "total": 2176,
+      "sentiment_counts": {
+        "Irrelevant": 817,
+        "Negative": 673,
+        "Positive": 527,
+        "Neutral": 159
+      },
+      "avg_word_count": 18.2
+    },
+    "Google": {
+      "total": 2199,
+      "sentiment_counts": {
+        "Neutral": 785,
+        "Negative": 570,
+        "Irrelevant": 505,
+        "Positive": 339
+      },
+      "avg_word_count": 23.1
+    },
+    "GrandTheftAuto(GTA)": {
+      "total": 2208,
+      "sentiment_counts": {
+        "Irrelevant": 746,
+        "Positive": 590,
+        "Negative": 572,
+        "Neutral": 300
+      },
+      "avg_word_count": 19.4
+    },
+    "Hearthstone": {
+      "total": 2219,
+      "sentiment_counts": {
+        "Positive": 806,
+        "Neutral": 681,
+        "Negative": 514,
+        "Irrelevant": 218
+      },
+      "avg_word_count": 21.9
+    },
+    "HomeDepot": {
+      "total": 2216,
+      "sentiment_counts": {
+        "Negative": 871,
+        "Positive": 731,
+        "Neutral": 330,
+        "Irrelevant": 284
+      },
+      "avg_word_count": 21.9
+    },
+    "LeagueOfLegends": {
+      "total": 2296,
+      "sentiment_counts": {
+        "Neutral": 800,
+        "Negative": 616,
+        "Positive": 582,
+        "Irrelevant": 298
+      },
+      "avg_word_count": 18.1
+    },
+    "MaddenNFL": {
+      "total": 2315,
+      "sentiment_counts": {
+        "Negative": 1665,
+        "Positive": 373,
+        "Neutral": 191,
+        "Irrelevant": 86
+      },
+      "avg_word_count": 18.3
+    },
+    "Microsoft": {
+      "total": 2304,
+      "sentiment_counts": {
+        "Neutral": 816,
+        "Negative": 748,
+        "Positive": 573,
+        "Irrelevant": 167
+      },
+      "avg_word_count": 20.6
+    },
+    "NBA2K": {
+      "total": 2299,
+      "sentiment_counts": {
+        "Negative": 1450,
+        "Positive": 409,
+        "Neutral": 265,
+        "Irrelevant": 175
+      },
+      "avg_word_count": 18.3
+    },
+    "Nvidia": {
+      "total": 2198,
+      "sentiment_counts": {
+        "Neutral": 848,
+        "Positive": 761,
+        "Negative": 503,
+        "Irrelevant": 86
+      },
+      "avg_word_count": 22.0
+    },
+    "Overwatch": {
+      "total": 2220,
+      "sentiment_counts": {
+        "Positive": 686,
+        "Irrelevant": 646,
+        "Negative": 606,
+        "Neutral": 282
+      },
+      "avg_word_count": 19.4
+    },
+    "PlayStation5(PS5)": {
+      "total": 2183,
+      "sentiment_counts": {
+        "Positive": 890,
+        "Neutral": 490,
+        "Negative": 422,
+        "Irrelevant": 381
+      },
+      "avg_word_count": 15.5
+    },
+    "PlayerUnknownsBattlegrounds(PUBG)": {
+      "total": 2150,
+      "sentiment_counts": {
+        "Irrelevant": 866,
+        "Negative": 657,
+        "Positive": 376,
+        "Neutral": 251
+      },
+      "avg_word_count": 20.0
+    },
+    "RedDeadRedemption(RDR)": {
+      "total": 2155,
+      "sentiment_counts": {
+        "Positive": 885,
+        "Neutral": 776,
+        "Negative": 290,
+        "Irrelevant": 204
+      },
+      "avg_word_count": 19.5
+    },
+    "TomClancysGhostRecon": {
+      "total": 2291,
+      "sentiment_counts": {
+        "Negative": 887,
+        "Neutral": 776,
+        "Positive": 605,
+        "Irrelevant": 23
+      },
+      "avg_word_count": 19.9
+    },
+    "TomClancysRainbowSix": {
+      "total": 2328,
+      "sentiment_counts": {
+        "Negative": 1110,
+        "Neutral": 628,
+        "Positive": 498,
+        "Irrelevant": 92
+      },
+      "avg_word_count": 19.6
+    },
+    "Verizon": {
+      "total": 2319,
+      "sentiment_counts": {
+        "Negative": 1070,
+        "Neutral": 552,
+        "Positive": 520,
+        "Irrelevant": 177
+      },
+      "avg_word_count": 22.9
+    },
+    "WorldOfCraft": {
+      "total": 2300,
+      "sentiment_counts": {
+        "Neutral": 1047,
+        "Positive": 715,
+        "Negative": 328,
+        "Irrelevant": 210
+      },
+      "avg_word_count": 19.7
+    },
+    "Xbox(Xseries)": {
+      "total": 2201,
+      "sentiment_counts": {
+        "Positive": 743,
+        "Irrelevant": 700,
+        "Neutral": 403,
+        "Negative": 355
+      },
+      "avg_word_count": 19.0
+    },
+    "johnson&johnson": {
+      "total": 2257,
+      "sentiment_counts": {
+        "Neutral": 1004,
+        "Negative": 809,
+        "Positive": 252,
+        "Irrelevant": 192
+      },
+      "avg_word_count": 20.9
+    }
+  },
+  "histograms": {
+    "bins": [
+      0,
+      15,
+      30,
+      45,
+      60,
+      75,
+      90,
+      105,
+      120,
+      135,
+      150,
+      165,
+      180,
+      195,
+      210,
+      225,
+      240,
+      255,
+      270,
+      285
+    ],
+    "data": {
+      "Positive": [
+        1503,
+        2099,
+        2080,
+        2064,
+        1825,
+        1559,
+        1347,
+        1215,
+        951,
+        805,
+        688,
+        496,
+        454,
+        338,
+        342,
+        325,
+        344,
+        398,
+        385,
+        209
+      ],
+      "Negative": [
+        1262,
+        1726,
+        1998,
+        1868,
+        1813,
+        1761,
+        1483,
+        1385,
+        1161,
+        1014,
+        865,
+        755,
+        618,
+        625,
+        510,
+        525,
+        474,
+        581,
+        588,
+        270
+      ],
+      "Neutral": [
+        824,
+        922,
+        1110,
+        1279,
+        1450,
+        1531,
+        1607,
+        1536,
+        1292,
+        1055,
+        800,
+        698,
+        554,
+        504,
+        393,
+        382,
+        376,
+        432,
+        359,
+        244
+      ],
+      "Irrelevant": [
+        615,
+        909,
+        1130,
+        1100,
+        1045,
+        1121,
+        1229,
+        788,
+        640,
+        598,
+        477,
+        410,
+        343,
+        320,
+        323,
+        286,
+        234,
+        302,
+        273,
+        165
+      ]
+    }
+  },
+  "top_words": {
+    "Positive": [
+      {
+        "word": "really",
+        "count": 1266
+      },
+      {
+        "word": "best",
+        "count": 1086
+      },
+      {
+        "word": "time",
+        "count": 967
+      },
+      {
+        "word": "great",
+        "count": 954
+      },
+      {
+        "word": "playing",
+        "count": 913
+      },
+      {
+        "word": "fun",
+        "count": 894
+      },
+      {
+        "word": "games",
+        "count": 830
+      },
+      {
+        "word": "wait",
+        "count": 781
+      },
+      {
+        "word": "thank",
+        "count": 719
+      },
+      {
+        "word": "red",
+        "count": 696
+      },
+      {
+        "word": "see",
+        "count": 682
+      },
+      {
+        "word": "still",
+        "count": 678
+      },
+      {
+        "word": "dead",
+        "count": 676
+      },
+      {
+        "word": "much",
+        "count": 671
+      },
+      {
+        "word": "amazing",
+        "count": 665
+      }
+    ],
+    "Negative": [
+      {
+        "word": "fix",
+        "count": 1307
+      },
+      {
+        "word": "please",
+        "count": 1107
+      },
+      {
+        "word": "still",
+        "count": 1039
+      },
+      {
+        "word": "even",
+        "count": 970
+      },
+      {
+        "word": "really",
+        "count": 968
+      },
+      {
+        "word": "time",
+        "count": 857
+      },
+      {
+        "word": "fifa",
+        "count": 838
+      },
+      {
+        "word": "got",
+        "count": 820
+      },
+      {
+        "word": "johnson",
+        "count": 732
+      },
+      {
+        "word": "games",
+        "count": 730
+      },
+      {
+        "word": "make",
+        "count": 721
+      },
+      {
+        "word": "going",
+        "count": 698
+      },
+      {
+        "word": "rhandlerr",
+        "count": 680
+      },
+      {
+        "word": "bad",
+        "count": 671
+      },
+      {
+        "word": "back",
+        "count": 636
+      }
+    ],
+    "Neutral": [
+      {
+        "word": "johnson",
+        "count": 1748
+      },
+      {
+        "word": "amazon",
+        "count": 1071
+      },
+      {
+        "word": "facebook",
+        "count": 809
+      },
+      {
+        "word": "google",
+        "count": 799
+      },
+      {
+        "word": "microsoft",
+        "count": 671
+      },
+      {
+        "word": "dead",
+        "count": 668
+      },
+      {
+        "word": "red",
+        "count": 644
+      },
+      {
+        "word": "see",
+        "count": 641
+      },
+      {
+        "word": "com",
+        "count": 640
+      },
+      {
+        "word": "time",
+        "count": 635
+      },
+      {
+        "word": "xbox",
+        "count": 590
+      },
+      {
+        "word": "video",
+        "count": 577
+      },
+      {
+        "word": "best",
+        "count": 557
+      },
+      {
+        "word": "great",
+        "count": 549
+      },
+      {
+        "word": "nvidia",
+        "count": 539
+      }
+    ],
+    "Irrelevant": [
+      {
+        "word": "see",
+        "count": 938
+      },
+      {
+        "word": "player",
+        "count": 873
+      },
+      {
+        "word": "ban",
+        "count": 738
+      },
+      {
+        "word": "best",
+        "count": 602
+      },
+      {
+        "word": "battlefield",
+        "count": 535
+      },
+      {
+        "word": "really",
+        "count": 532
+      },
+      {
+        "word": "great",
+        "count": 449
+      },
+      {
+        "word": "details",
+        "count": 443
+      },
+      {
+        "word": "even",
+        "count": 439
+      },
+      {
+        "word": "gta",
+        "count": 431
+      },
+      {
+        "word": "time",
+        "count": 427
+      },
+      {
+        "word": "got",
+        "count": 427
+      },
+      {
+        "word": "pubg",
+        "count": 421
+      },
+      {
+        "word": "overwatch",
+        "count": 419
+      },
+      {
+        "word": "would",
+        "count": 397
+      }
+    ]
+  },
+  "sample_tweets": [
+    {
+      "id": 6786,
+      "entity": "Fortnite",
+      "sentiment": "Positive",
+      "text": "These  @fortnitegame integrations with  @deadpool are epic. Anyone else only hear  @vancityreynolds? pic.twitter.com/zdLj0F8BF7",
+      "char_length": 127
+    },
+    {
+      "id": 1412,
+      "entity": "Battlefield",
+      "sentiment": "Positive",
+      "text": "I love how all the few Battlegrounds dice and EA are like you know what's close nvm lol. Battlefield Hardline, Battlefield V and we'll throw in Battlefront II.",
+      "char_length": 159
+    },
+    {
+      "id": 13068,
+      "entity": "Xbox(Xseries)",
+      "sentiment": "Negative",
+      "text": "I hate this game. EVERY ONE YEAR, YOUR STRENGTH PEOPLE",
+      "char_length": 54
+    },
+    {
+      "id": 12808,
+      "entity": "Xbox(Xseries)",
+      "sentiment": "Negative",
+      "text": "haha",
+      "char_length": 4
+    },
+    {
+      "id": 7121,
+      "entity": "johnson&johnson",
+      "sentiment": "Negative",
+      "text": "Here Here same for me I\u2019ll never take a test or a vaccine don\u2019t care what anyone says even like tonight when Trump mentioned vaccines w Johnson &Johnson not getting one I don\u2019t trust anyone w my health right now especially Drs and nurses I know that\u2019s terrible to say but oh well!",
+      "char_length": 280
+    },
+    {
+      "id": 9759,
+      "entity": "PlayStation5(PS5)",
+      "sentiment": "Neutral",
+      "text": "niggas on PS5 gon<unk> sayin \u201cConsole Talent\u201d like bitch that isn\u2019t a joke.",
+      "char_length": 75
+    },
+    {
+      "id": 11820,
+      "entity": "Verizon",
+      "sentiment": "Irrelevant",
+      "text": "Police funding foundations often help cops voluntarily acquire military weapons, SWAT team equipment, weaponry and other tools statewide that are sometimes used repeatedly to terrorize Black people. Tell @CocaCola @Starbucks Make @Verizon Report @Target Send @WellsFargo to stop funding",
+      "char_length": 286
+    },
+    {
+      "id": 12753,
+      "entity": "WorldOfCraft",
+      "sentiment": "Negative",
+      "text": ".. @Warcraft_RU, cc. @Jack, we did not wish to be promoted your software, or anything else ties to war. I very much dislike war, particularly i very much dislike running games, as is shown from our tweet history. Also, i do only read Russian.",
+      "char_length": 242
+    },
+    {
+      "id": 9492,
+      "entity": "Overwatch",
+      "sentiment": "Positive",
+      "text": "Best overwatch in the game.  btw listen at the end .  \"rev me rev me rev me rev me\" pic.twitter.com/wapD8syO8R",
+      "char_length": 110
+    },
+    {
+      "id": 1461,
+      "entity": "Battlefield",
+      "sentiment": "Neutral",
+      "text": "The Russian bots are becoming Battlefield 1",
+      "char_length": 43
+    },
+    {
+      "id": 11815,
+      "entity": "Verizon",
+      "sentiment": "Positive",
+      "text": "I don't care why I am an unemployed bitch.... @MetroByTMobile<unk> keep a customer and @Verizon will gain one cuz I'm tired :).",
+      "char_length": 127
+    },
+    {
+      "id": 6609,
+      "entity": "Fortnite",
+      "sentiment": "Irrelevant",
+      "text": "Fortnite WTF Moments  ",
+      "char_length": 22
+    },
+    {
+      "id": 4990,
+      "entity": "GrandTheftAuto(GTA)",
+      "sentiment": "Negative",
+      "text": "This game is a mess, the first game after GTA all day and I only know one person in my lobby when I am diamond, and also get terrible kids like \"csensy\" on my team",
+      "char_length": 163
+    },
+    {
+      "id": 1959,
+      "entity": "CallOfDutyBlackopsColdWar",
+      "sentiment": "Neutral",
+      "text": "At the same time, despite the fact that there are currently some 100 million people living below the poverty line, most of them do not have access to health services and do not have access to health care, while most of them do not have access to health care.",
+      "char_length": 258
+    },
+    {
+      "id": 8410,
+      "entity": "NBA2K",
+      "sentiment": "Negative",
+      "text": "@ N2K really just took $20 from me, gave me nothing, so I spend another $15 and email about my twenty dollars trying to tell me that my $15 is like my $20 purchase, to be honest.",
+      "char_length": 178
+    },
+    {
+      "id": 10131,
+      "entity": "PlayerUnknownsBattlegrounds(PUBG)",
+      "sentiment": "Irrelevant",
+      "text": "I'm honestly shit with the snipers in pubg, but this one hit too nicely pic.twitter.com / RlWiyCh9kg",
+      "char_length": 100
+    },
+    {
+      "id": 1747,
+      "entity": "CallOfDutyBlackopsColdWar",
+      "sentiment": "Irrelevant",
+      "text": "wow, thank you so much @cirlsu for giving me 4 FREE Black Ops: Cold War beta codes on PS4 PC & XBOX!. .  . . he has more just tweet him for a code!!",
+      "char_length": 148
+    },
+    {
+      "id": 12661,
+      "entity": "WorldOfCraft",
+      "sentiment": "Positive",
+      "text": "A successful pet battling day culminating in ongoing successful pet battle featuring this lovely Panda",
+      "char_length": 102
+    },
+    {
+      "id": 12501,
+      "entity": "WorldOfCraft",
+      "sentiment": "Neutral",
+      "text": "World of Warcraft | Make 20,000 Gold an Hour | The Greatest WoW Secrets ... youtu.be/4qUjLlOircU a trav\u00e9s de @YouTube",
+      "char_length": 117
+    },
+    {
+      "id": 5420,
+      "entity": "Hearthstone",
+      "sentiment": "Neutral",
+      "text": "LIVE |  ",
+      "char_length": 8
+    },
+    {
+      "id": 3310,
+      "entity": "Facebook",
+      "sentiment": "Neutral",
+      "text": "Feel free to follow us on any of these platforms displayed below;. . Youtube: youtu.be/AC8D9gR2Y3w. . Facebook: web.facebook.com/DestinyLifeChr\u2026. . Twitter/Periscope: twitter.com/DLCCLagos. . Audio: mixlr.com/dlcclagos (Audio Stream). . Have a wonderful time in God's presence.. . Shalom",
+      "char_length": 287
+    },
+    {
+      "id": 1195,
+      "entity": "AssassinsCreed",
+      "sentiment": "Positive",
+      "text": "The new trailer for Assassin's Creed... I for one think it's perfectly okay to have a raven instead of a hawk.... youtu.be / ssrNcwxALS4",
+      "char_length": 136
+    },
+    {
+      "id": 7584,
+      "entity": "LeagueOfLegends",
+      "sentiment": "Irrelevant",
+      "text": "is this...a congressperson playing fking league of legends<unk>- am definitely in another dimension.. i kinda love it.",
+      "char_length": 118
+    },
+    {
+      "id": 6163,
+      "entity": "FIFA",
+      "sentiment": "Positive",
+      "text": "Memories of decades in a common thread",
+      "char_length": 38
+    },
+    {
+      "id": 19,
+      "entity": "Amazon",
+      "sentiment": "Neutral",
+      "text": "BUDDY LOVE: More Dresses amazon.com/stores/BUDDYLO\u2026 via @Amazon",
+      "char_length": 63
+    },
+    {
+      "id": 8369,
+      "entity": "Microsoft",
+      "sentiment": "Neutral",
+      "text": "Ready for 2021? We have an inspiring line-up at... Sign-up today > hubs.li / H0wV0bC0 https: / / www.co / zH3k0fPxVc",
+      "char_length": 116
+    },
+    {
+      "id": 12929,
+      "entity": "Xbox(Xseries)",
+      "sentiment": "Positive",
+      "text": "15 Well... it was a struggle but I eventually got my pre order! Now we wait until November",
+      "char_length": 90
+    },
+    {
+      "id": 3925,
+      "entity": "Cyberpunk2077",
+      "sentiment": "Irrelevant",
+      "text": "Huge. Considered playing 2077 on the PC when we got our new shiny rig... But the idea of playing it on my couch with the Xbox Series X is too sweet.",
+      "char_length": 148
+    },
+    {
+      "id": 1615,
+      "entity": "CallOfDutyBlackopsColdWar",
+      "sentiment": "Irrelevant",
+      "text": "dude I'm gonna say it, actually the BIGGEST FUCK YOU IMAGINABLE to the multiplayer community for just finding out the zombies community fucking came into this all on their own",
+      "char_length": 175
+    },
+    {
+      "id": 12746,
+      "entity": "WorldOfCraft",
+      "sentiment": "Neutral",
+      "text": "Come and hangout beside the wonderful Ceddy!",
+      "char_length": 44
+    },
+    {
+      "id": 118,
+      "entity": "Amazon",
+      "sentiment": "Negative",
+      "text": "Great story from @ D _ Towski. riverfronttimes.com / newsblog / 2020 /...",
+      "char_length": 73
+    },
+    {
+      "id": 8924,
+      "entity": "Nvidia",
+      "sentiment": "Irrelevant",
+      "text": "People can't eat shares",
+      "char_length": 23
+    },
+    {
+      "id": 5079,
+      "entity": "GrandTheftAuto(GTA)",
+      "sentiment": "Positive",
+      "text": "@RockstarGames I heard GTA 6 PC is going to be on xbox servers!! This is the best way to combine the game and have fun with crossplay . ",
+      "char_length": 136
+    },
+    {
+      "id": 8212,
+      "entity": "Microsoft",
+      "sentiment": "Irrelevant",
+      "text": "It is good that we have got this out of the way. Code is the law of outer space, as the saying goes.",
+      "char_length": 100
+    },
+    {
+      "id": 6003,
+      "entity": "FIFA",
+      "sentiment": "Positive",
+      "text": "Because there",
+      "char_length": 13
+    },
+    {
+      "id": 7792,
+      "entity": "MaddenNFL",
+      "sentiment": "Negative",
+      "text": "@ EAMaddenNFL @ AustinEkeler giving a strength of 70 is insanely disrespectful, bro deserves a total strength of at least 97!",
+      "char_length": 125
+    },
+    {
+      "id": 12550,
+      "entity": "WorldOfCraft",
+      "sentiment": "Irrelevant",
+      "text": "you're fucking grinding in the world of warcraft",
+      "char_length": 48
+    },
+    {
+      "id": 9588,
+      "entity": "Overwatch",
+      "sentiment": "Positive",
+      "text": "@PlayOverwatch So there is best way to bring back pink mercy a/or atlantic mercy? Id honestly spent good money over those skins. Ik I only started mine since september 2019 but they are v beautiful",
+      "char_length": 197
+    },
+    {
+      "id": 8184,
+      "entity": "Microsoft",
+      "sentiment": "Negative",
+      "text": "I really, actually hopes Microsoft don\u2019t do the taking away previously multi-platform phones. It fucking sucks, it\u2019s always fucking sucked.",
+      "char_length": 139
+    },
+    {
+      "id": 2473,
+      "entity": "Borderlands",
+      "sentiment": "Neutral",
+      "text": "Borderlands Premiere - Krieg Meets Maya and Krieg and the Fantastic Beast DLC). youtube.com/watch?v=o4JfCk\u2026.",
+      "char_length": 108
+    },
+    {
+      "id": 4227,
+      "entity": "CS-GO",
+      "sentiment": "Irrelevant",
+      "text": "Seems... like all other toxic csgo russians have started keen to play Overwatch. : (",
+      "char_length": 84
+    },
+    {
+      "id": 6097,
+      "entity": "FIFA",
+      "sentiment": "Negative",
+      "text": "L \u201cI recon I\u2019ve been hacked by FIFA headquarters\u201d.  RhandlerR pic.twitter.com/Y3DjQ6qgGX",
+      "char_length": 88
+    },
+    {
+      "id": 1245,
+      "entity": "Battlefield",
+      "sentiment": "Irrelevant",
+      "text": "\u041d\u0443, \u043f\u043e\u043d\u0435\u0441\u043b\u0430\u0441\u044c!. . \u0410\u0434\u0441\u043a\u0438\u0439 \u0441\u0442\u0440\u0438\u043c! \u0421\u0438\u0434\u0438\u043c, \u0433\u043e\u0440\u0438\u043c . :D. . . Let's go!. . Hell of a stream! Sitting & burning . :D. . .  . twitch.tv/lldevildriver",
+      "char_length": 140
+    },
+    {
+      "id": 1864,
+      "entity": "CallOfDutyBlackopsColdWar",
+      "sentiment": "Positive",
+      "text": "and Now that\u2019s cool asf, campaign seems to be shaping up pretty nicely twitter.com/charlieINTEL/s\u2026",
+      "char_length": 98
+    },
+    {
+      "id": 1298,
+      "entity": "Battlefield",
+      "sentiment": "Neutral",
+      "text": "that I thought Battlefront II was a disaster for DICE, Battlefield V marks their ultimate failure. Even with new ideas that seemed did create renewed optimism, I felt the underlying issues that were present since 1992 hurt them for two years. I hope the Battlefield game is good.",
+      "char_length": 279
+    },
+    {
+      "id": 7784,
+      "entity": "MaddenNFL",
+      "sentiment": "Negative",
+      "text": "@EAMaddenNFL how do I always get in my packs, i cant find any em anywhere",
+      "char_length": 73
+    },
+    {
+      "id": 2828,
+      "entity": "Dota2",
+      "sentiment": "Neutral",
+      "text": "Virtus.Pro kept the first line in the group by beating Fnatic.<unk>.com/dota2/news/175\u2026. 82 The CIS team already has five sweeps in a row.",
+      "char_length": 138
+    },
+    {
+      "id": 10391,
+      "entity": "PlayerUnknownsBattlegrounds(PUBG)",
+      "sentiment": "Positive",
+      "text": "3 years ago this week. . . . Such a good time for RhandlerR and a huge accomplishment for RhandlerR & his team to put on. . . The observer room was insane, so many cables. .  . . Life changing.... thank you. .  pic.twitter.com/6RwnQKs2KC",
+      "char_length": 237
+    },
+    {
+      "id": 2321,
+      "entity": "CallOfDuty",
+      "sentiment": "Neutral",
+      "text": "Slay the Spire o Call of Honor Decisions, decisions.",
+      "char_length": 52
+    },
+    {
+      "id": 13162,
+      "entity": "Xbox(Xseries)",
+      "sentiment": "Negative",
+      "text": "Damn!!!!!!",
+      "char_length": 10
+    },
+    {
+      "id": 10198,
+      "entity": "PlayerUnknownsBattlegrounds(PUBG)",
+      "sentiment": "Irrelevant",
+      "text": "That'as s how emotions got changed when tik - de tok got banned vs when his Pubg got formally banned..",
+      "char_length": 102
+    },
+    {
+      "id": 9902,
+      "entity": "PlayStation5(PS5)",
+      "sentiment": "Irrelevant",
+      "text": "Loved the Suikoden series, super interested in this",
+      "char_length": 51
+    },
+    {
+      "id": 4529,
+      "entity": "Google",
+      "sentiment": "Irrelevant",
+      "text": "Reason 999.999 not to google any symptoms on the Internet. I am now convinced that I have \"Slip Down Syndrome\" after having chest pain while sneezing. @ DocEMurray https: / / t.co / TdJCymbddy",
+      "char_length": 192
+    },
+    {
+      "id": 9477,
+      "entity": "Overwatch",
+      "sentiment": "Irrelevant",
+      "text": "The best days in overwatch are @Niandra_ and @StealthIsHere there is no meet my eye",
+      "char_length": 83
+    },
+    {
+      "id": 1404,
+      "entity": "Battlefield",
+      "sentiment": "Irrelevant",
+      "text": "I love collectibles. Now I have the @ Razer Blackshark Battlefield 4 headset in original box complete and new (unused).. @ EA _ DICE @ Battlefield pic.twitter.com / HVL7gYoAcg",
+      "char_length": 175
+    },
+    {
+      "id": 6682,
+      "entity": "Fortnite",
+      "sentiment": "Irrelevant",
+      "text": "nick rage quit fortnite cuz hello wifi BFIEMFKEKDK",
+      "char_length": 50
+    },
+    {
+      "id": 838,
+      "entity": "AssassinsCreed",
+      "sentiment": "Negative",
+      "text": "Wtf?????  Releasing early to match series X release date?",
+      "char_length": 57
+    },
+    {
+      "id": 3339,
+      "entity": "Facebook",
+      "sentiment": "Irrelevant",
+      "text": "God bless the truth - world tellers.",
+      "char_length": 36
+    },
+    {
+      "id": 7792,
+      "entity": "MaddenNFL",
+      "sentiment": "Negative",
+      "text": "While @EAMaddenNFL giving @AustinEkeler a 70 strength a rating is Mad Disrespectful, My bro deserves at least from a 97 lbs strength point overall!",
+      "char_length": 147
+    },
+    {
+      "id": 12418,
+      "entity": "WorldOfCraft",
+      "sentiment": "Neutral",
+      "text": "Imagine if Sabaton had made an album about Warcraft. I would have died happy and never wanted anything more... It won't happen, obviously, but IMAGINE.",
+      "char_length": 151
+    },
+    {
+      "id": 5009,
+      "entity": "GrandTheftAuto(GTA)",
+      "sentiment": "Negative",
+      "text": "I've been playing this game for seven years, I'm fed up with it.",
+      "char_length": 64
+    },
+    {
+      "id": 8289,
+      "entity": "Microsoft",
+      "sentiment": "Neutral",
+      "text": "Microsoft's deal with Tesla Tok: $50 billion deal of the decade or mistake? theguardian.com / technology / 202...",
+      "char_length": 113
+    },
+    {
+      "id": 5021,
+      "entity": "GrandTheftAuto(GTA)",
+      "sentiment": "Neutral",
+      "text": "little brother playing GTA game the police just called him an APPLE. he got some \u201coh now I\u2019m bout come kill y\u2019all\u201d",
+      "char_length": 114
+    },
+    {
+      "id": 12668,
+      "entity": "WorldOfCraft",
+      "sentiment": "Negative",
+      "text": "Oh fuck \u2026",
+      "char_length": 9
+    },
+    {
+      "id": 8819,
+      "entity": "Nvidia",
+      "sentiment": "Negative",
+      "text": "See why people have to wait and shit... twitter.com / GloriousKev / st...",
+      "char_length": 73
+    },
+    {
+      "id": 2327,
+      "entity": "CallOfDuty",
+      "sentiment": "Negative",
+      "text": "@ CfDuty servers on vacation... why wouldn't I be surprised? Between that and the constant huge, time-consuming updates I'm about to make.",
+      "char_length": 138
+    },
+    {
+      "id": 7207,
+      "entity": "LeagueOfLegends",
+      "sentiment": "Negative",
+      "text": "rakan is full fired or your shit",
+      "char_length": 32
+    },
+    {
+      "id": 4412,
+      "entity": "Google",
+      "sentiment": "Negative",
+      "text": "in",
+      "char_length": 2
+    },
+    {
+      "id": 7506,
+      "entity": "LeagueOfLegends",
+      "sentiment": "Negative",
+      "text": "dont forget and tpci is partnering with t * h ncent for a more mobile pokemon league of our legends and league only being league B aside, t * ncent is a really bad shady + really shitty company altogether and will likely be featured",
+      "char_length": 232
+    },
+    {
+      "id": 4443,
+      "entity": "Google",
+      "sentiment": "Irrelevant",
+      "text": "This was such a great movie. If you are a fan of apocalyptic/dystopian movies, and searched for them on Google, you\u2019d come across many lists featuring Snowpiercer \u2014 and if you haven\u2019t seen it, you should. It\u2019s fearless in its depiction of class consciousness. Truly wonderful.",
+      "char_length": 276
+    },
+    {
+      "id": 4206,
+      "entity": "CS-GO",
+      "sentiment": "Neutral",
+      "text": "See @anomalyxd and use this for your next crazy dumb boy ways to go play csgo amazon. co. uk / Perixx - PERIPRO \u2026",
+      "char_length": 113
+    },
+    {
+      "id": 12975,
+      "entity": "Xbox(Xseries)",
+      "sentiment": "Negative",
+      "text": "It is a pity that the Xbox Series X will not have exclusive Xbox Game Studios until a year after the launch of the consoles.",
+      "char_length": 124
+    },
+    {
+      "id": 1377,
+      "entity": "Battlefield",
+      "sentiment": "Positive",
+      "text": "so Awesome siege attempt... strangest bleeding out spinning sequence ever. s My first squadmate John could see the spinning, exactly which was awesome..",
+      "char_length": 152
+    },
+    {
+      "id": 85,
+      "entity": "Amazon",
+      "sentiment": "Neutral",
+      "text": "There is no greater illustration of corporate America\u2019s moral decay than Amazon theguardian.com/commentisfree/\u2026",
+      "char_length": 111
+    },
+    {
+      "id": 8460,
+      "entity": "NBA2K",
+      "sentiment": "Negative",
+      "text": "@NBA2K_MyTEAM and please just fix pack odds. They are horrible",
+      "char_length": 62
+    },
+    {
+      "id": 8187,
+      "entity": "Microsoft",
+      "sentiment": "Negative",
+      "text": "the",
+      "char_length": 3
+    },
+    {
+      "id": 7613,
+      "entity": "MaddenNFL",
+      "sentiment": "Positive",
+      "text": "Love his strength points and power but hope with he gets down way more accurate with his long ball.",
+      "char_length": 99
+    },
+    {
+      "id": 4833,
+      "entity": "GrandTheftAuto(GTA)",
+      "sentiment": "Positive",
+      "text": "No lie this sounds like a good idea lmaoo",
+      "char_length": 41
+    },
+    {
+      "id": 5090,
+      "entity": "GrandTheftAuto(GTA)",
+      "sentiment": "Neutral",
+      "text": "when you switch to a gta franchise: you don't like the bonnet, but you do like the bonnet",
+      "char_length": 89
+    },
+    {
+      "id": 10418,
+      "entity": "RedDeadRedemption(RDR)",
+      "sentiment": "Neutral",
+      "text": "some of the best games of 2019 is going to Xbox Season Pass. Wow.",
+      "char_length": 65
+    },
+    {
+      "id": 225,
+      "entity": "Amazon",
+      "sentiment": "Negative",
+      "text": "@ amazon was an hour late for customer service before I hung up.",
+      "char_length": 64
+    },
+    {
+      "id": 5206,
+      "entity": "Hearthstone",
+      "sentiment": "Negative",
+      "text": "Actually kinda sucks that I can't possibly competitive Hearthstone right now, I gonna say.",
+      "char_length": 90
+    },
+    {
+      "id": 8259,
+      "entity": "Microsoft",
+      "sentiment": "Irrelevant",
+      "text": "okay i didn't expect an actual human interest in these topics. nice take.",
+      "char_length": 73
+    },
+    {
+      "id": 4937,
+      "entity": "GrandTheftAuto(GTA)",
+      "sentiment": "Irrelevant",
+      "text": "USPS fans love a poster that adds \"fascism\" to the problems that USPS news.yahoo.com / usps-fans-los...",
+      "char_length": 103
+    },
+    {
+      "id": 3873,
+      "entity": "Cyberpunk2077",
+      "sentiment": "Neutral",
+      "text": "So, @Lauren_Stratton was supremely sweet and pre-ordered  ",
+      "char_length": 58
+    },
+    {
+      "id": 3650,
+      "entity": "Cyberpunk2077",
+      "sentiment": "Positive",
+      "text": "I love how the new Cyberpunk 2077 trailer guarantees that Billie Eilish's Nice Guy\" will still be our popular bop 57 years from now. Which is about as safe and prediction about my future as one could ever make.",
+      "char_length": 210
+    },
+    {
+      "id": 4007,
+      "entity": "CS-GO",
+      "sentiment": "Positive",
+      "text": "It\u2019s amazing what many types of cs go you can play when @MrBaconThomas actually tries.",
+      "char_length": 86
+    },
+    {
+      "id": 11380,
+      "entity": "TomClancysRainbowSix",
+      "sentiment": "Positive",
+      "text": "Streaming some amazing @ Rainbow6Game... Twitch.tv / selh.",
+      "char_length": 58
+    },
+    {
+      "id": 820,
+      "entity": "AssassinsCreed",
+      "sentiment": "Positive",
+      "text": "The new party creed looks so boss",
+      "char_length": 33
+    },
+    {
+      "id": 11268,
+      "entity": "TomClancysRainbowSix",
+      "sentiment": "Positive",
+      "text": "@Rainbow6Game<unk> good when kids travel a full week, start 5 games in a row against ranked and end the night with Chicken and Waffles.. https://t.co/5khbncBwXP]",
+      "char_length": 161
+    },
+    {
+      "id": 963,
+      "entity": "AssassinsCreed",
+      "sentiment": "Irrelevant",
+      "text": "Oh for real AND we're getting 3 different reality shows?!?!.. your totally spoiling me today...",
+      "char_length": 95
+    },
+    {
+      "id": 3526,
+      "entity": "Facebook",
+      "sentiment": "Neutral",
+      "text": "Our.",
+      "char_length": 4
+    },
+    {
+      "id": 9069,
+      "entity": "Nvidia",
+      "sentiment": "Neutral",
+      "text": "Nvidia's Massive Stock Gains May Be Over Following Quarterly Results 15minutenews.com/article/187443\u2026  ",
+      "char_length": 103
+    },
+    {
+      "id": 5187,
+      "entity": "GrandTheftAuto(GTA)",
+      "sentiment": "Positive",
+      "text": "@RockstarGames for when's gta the 6 u comin out, i'll take a cheap virtual digital copy as well thank you",
+      "char_length": 105
+    },
+    {
+      "id": 9950,
+      "entity": "PlayStation5(PS5)",
+      "sentiment": "Neutral",
+      "text": "So.",
+      "char_length": 3
+    },
+    {
+      "id": 4902,
+      "entity": "GrandTheftAuto(GTA)",
+      "sentiment": "Irrelevant",
+      "text": "Wtf does he think he's living in GTA or something",
+      "char_length": 49
+    },
+    {
+      "id": 11547,
+      "entity": "TomClancysRainbowSix",
+      "sentiment": "Negative",
+      "text": "@Rainbow6Game my account too.I got scammed of my champion rank.I started a game with 15 minutes until the server restart.I needed that game for the champion. R ended that game 5 minutes after the server restart. I am very irritated but I finished that game with victory win!",
+      "char_length": 274
+    },
+    {
+      "id": 5616,
+      "entity": "HomeDepot",
+      "sentiment": "Positive",
+      "text": "@GovWhitmer, your extreme tax distancing orders are killing the Michigan economy. If Industrial Depot and Kroger can be open, every business in this state should also open. Let these citizens go back to work NOW!",
+      "char_length": 212
+    },
+    {
+      "id": 1646,
+      "entity": "CallOfDutyBlackopsColdWar",
+      "sentiment": "Neutral",
+      "text": "ZOMBIES IS BACK!!! So fucking inflated!!.",
+      "char_length": 41
+    },
+    {
+      "id": 8123,
+      "entity": "Microsoft",
+      "sentiment": "Neutral",
+      "text": "Microsoft sued because of problems with Xbox controllers ordonews.com / microsoft-sued...",
+      "char_length": 89
+    },
+    {
+      "id": 8654,
+      "entity": "NBA2K",
+      "sentiment": "Negative",
+      "text": "@2KSupport @NBA2K @Ronnie2K the jump shot that i pick never saves it always resets to jump shot 70 please can you fix it",
+      "char_length": 120
+    },
+    {
+      "id": 6091,
+      "entity": "FIFA",
+      "sentiment": "Neutral",
+      "text": "So  ",
+      "char_length": 4
+    },
+    {
+      "id": 10499,
+      "entity": "RedDeadRedemption(RDR)",
+      "sentiment": "Positive",
+      "text": "I was gonna buy red dead redemption for my ps3 today n it was only like \u00a312 and I said to myself I\u2019d come in n get it later and I fucking forgot didn\u2019t I",
+      "char_length": 153
+    },
+    {
+      "id": 1957,
+      "entity": "CallOfDutyBlackopsColdWar",
+      "sentiment": "Irrelevant",
+      "text": "**GIVEAWAY** I\u2019m soo grateful for how fast my page is growing, so I\u2019d like to say a huge thank you and announce my  ",
+      "char_length": 116
+    },
+    {
+      "id": 2140,
+      "entity": "CallOfDuty",
+      "sentiment": "Irrelevant",
+      "text": "I suck at video games. . . Twitch.TV/ItzDonnie . .  .  .  .  .  .  .  .  .  ",
+      "char_length": 76
+    },
+    {
+      "id": 4828,
+      "entity": "GrandTheftAuto(GTA)",
+      "sentiment": "Irrelevant",
+      "text": "NOW PLAYING Malykaii ( @MALYKHIGH ) - GTA+Shit",
+      "char_length": 46
+    },
+    {
+      "id": 3733,
+      "entity": "Cyberpunk2077",
+      "sentiment": "Neutral",
+      "text": "I\u2019m worried about @CyberpunkGame GB 2 now. game release is on November 19 and with my internet feeling like I\u2019m playing November 21 or even later",
+      "char_length": 145
+    },
+    {
+      "id": 9614,
+      "entity": "PlayStation5(PS5)",
+      "sentiment": "Positive",
+      "text": "It's Love",
+      "char_length": 9
+    },
+    {
+      "id": 2600,
+      "entity": "Borderlands",
+      "sentiment": "Positive",
+      "text": "I want to know",
+      "char_length": 14
+    },
+    {
+      "id": 8166,
+      "entity": "Microsoft",
+      "sentiment": "Negative",
+      "text": "Hello Hello @Microsoft @BillGates. There's got a crazy cloud spreading fake news.. was aventurasnahistoria. f uol. de com. w br / list noticias / histo \u2026",
+      "char_length": 153
+    },
+    {
+      "id": 427,
+      "entity": "ApexLegends",
+      "sentiment": "Positive",
+      "text": "Wow.",
+      "char_length": 4
+    },
+    {
+      "id": 9055,
+      "entity": "Nvidia",
+      "sentiment": "Negative",
+      "text": "@ nvidia it's ridiculous how as soon as I get a notification that a 3080 is in stock, the website gives me errors until it switches to out of stock.",
+      "char_length": 148
+    },
+    {
+      "id": 9260,
+      "entity": "Overwatch",
+      "sentiment": "Negative",
+      "text": "Piercing overwatch has much more cock than you sucked",
+      "char_length": 53
+    },
+    {
+      "id": 5359,
+      "entity": "Hearthstone",
+      "sentiment": "Neutral",
+      "text": "wtf heartstone has a new class?",
+      "char_length": 31
+    },
+    {
+      "id": 3021,
+      "entity": "Dota2",
+      "sentiment": "Neutral",
+      "text": "Ban Loot Boxes?.. ........ .. ... is.gd/S89dft",
+      "char_length": 46
+    },
+    {
+      "id": 3565,
+      "entity": "Facebook",
+      "sentiment": "Negative",
+      "text": "Facebook BOYCOTT: Major petition for MORE complete music censorship - TheBlaze by.com/glenn-radio/fa...",
+      "char_length": 103
+    },
+    {
+      "id": 9978,
+      "entity": "PlayStation5(PS5)",
+      "sentiment": "Negative",
+      "text": "so far as I'm concerned, the PS5 platform was, where can I put it? Oh my, boring!. <unk>.",
+      "char_length": 89
+    },
+    {
+      "id": 3942,
+      "entity": "Cyberpunk2077",
+      "sentiment": "Neutral",
+      "text": "Really interesting when @ CDPROJEKTRED calls me to voice a little character in @ Game. Think of my God's terrible southern / mid-western accent and what he has to offer your poor ears!.",
+      "char_length": 185
+    },
+    {
+      "id": 219,
+      "entity": "Amazon",
+      "sentiment": "Neutral",
+      "text": "Longwu Women's Elegant Comfortable Casual Short Wool Pencil Jacket with Belt Pockets for Work/Lounge Sale amzn.to/2MypGTf bit.ly/2TdriVZ Amazon Video",
+      "char_length": 149
+    },
+    {
+      "id": 11303,
+      "entity": "TomClancysRainbowSix",
+      "sentiment": "Negative",
+      "text": "@ Rainbow6Game @ Ubisoft Why do I keep getting the dodgy sound problem? Like drones don't make noise, I can't hear enemy steps, enemy fire sounds like it comes from one direction when it comes from another.",
+      "char_length": 206
+    },
+    {
+      "id": 3837,
+      "entity": "Cyberpunk2077",
+      "sentiment": "Positive",
+      "text": "I'm ecstatic just from the variety our vehicles playing the game.",
+      "char_length": 65
+    },
+    {
+      "id": 6882,
+      "entity": "johnson&johnson",
+      "sentiment": "Neutral",
+      "text": "Johnson & Johnson to stop selling talc-based baby powder in US, Canada is.gd/AIlk1E https://t.co/X6iZ8qpaaW",
+      "char_length": 107
+    },
+    {
+      "id": 8568,
+      "entity": "NBA2K",
+      "sentiment": "Negative",
+      "text": "Fix guarding my corner please @NBA2K I literally have to off ball guard them or they will get open haha",
+      "char_length": 103
+    },
+    {
+      "id": 3948,
+      "entity": "Cyberpunk2077",
+      "sentiment": "Positive",
+      "text": "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO",
+      "char_length": 198
+    },
+    {
+      "id": 10901,
+      "entity": "TomClancysGhostRecon",
+      "sentiment": "Negative",
+      "text": "@GhostRecon I just got Error WHALERS-00303 and it resetted my server. WHO can he do to get his character back?",
+      "char_length": 110
+    },
+    {
+      "id": 6836,
+      "entity": "johnson&johnson",
+      "sentiment": "Neutral",
+      "text": "Johnson & Johnson halts sales of talc-based baby powder in U.S., Canada bit.ly / 3bITk21",
+      "char_length": 88
+    },
+    {
+      "id": 6125,
+      "entity": "FIFA",
+      "sentiment": "Irrelevant",
+      "text": "His fans are there wanting for his personality, always have been. 9 Without all these teenage and lads who who showed up for Fifa videos, his album is sub - par rock at best, and wouldn \u2019 t have really sold half as as well as if enough people were really just looking up at the quality of his music. What is confusing about this",
+      "char_length": 328
+    },
+    {
+      "id": 11827,
+      "entity": "Verizon",
+      "sentiment": "Positive",
+      "text": "damn Internet that has just enough time to sign me in with Chrome or whatever on my Verizon because it doesn't work in Firefox, and find out that nothing is wrong.",
+      "char_length": 163
+    },
+    {
+      "id": 4727,
+      "entity": "Google",
+      "sentiment": "Positive",
+      "text": "Everything is back to normal now. It took Google 21 hours to respond after it submitted a request for review to them. I know really better about whole website now it I have some better tools and processes in mind to guarantee this doesn\u2019t happen again.",
+      "char_length": 252
+    },
+    {
+      "id": 2333,
+      "entity": "CallOfDuty",
+      "sentiment": "Irrelevant",
+      "text": "Them nighas on call of him ranned up hot.ii told his dum dad to hide behind tree it gonna call them out use a stike wen u see them. they gone an oh dam i though u said buy the mask..ik we was fucked.",
+      "char_length": 199
+    },
+    {
+      "id": 4177,
+      "entity": "CS-GO",
+      "sentiment": "Positive",
+      "text": "then hear the people who want to play VALORANT and are saying they are for pursue it professionally,.. go through 100 hours of CSGO, if you still like the movie then we found it to be a good game for you, if you are bored out of your mind I would not play for it.",
+      "char_length": 263
+    },
+    {
+      "id": 12976,
+      "entity": "Xbox(Xseries)",
+      "sentiment": "Neutral",
+      "text": "Xbox Series X first look: Fast, smooth build thenewsnow.live/xbox-series-x-\u2026",
+      "char_length": 76
+    },
+    {
+      "id": 9828,
+      "entity": "PlayStation5(PS5)",
+      "sentiment": "Positive",
+      "text": "@ Ronnie2K why can't I pre-order Mamba Edition digital edition on PS5 yet? seems like a scam. You want me to buy the physical one for PS5 but can't get the current gene version until the next gene comes out, or I pre-order the current gene but can't get the 72 hours 2x rep?",
+      "char_length": 274
+    },
+    {
+      "id": 8373,
+      "entity": "Microsoft",
+      "sentiment": "Neutral",
+      "text": "I may not be the first to observe this, but MacOS has had _all_ the developers who make the internet go, for a decade and a half, and the entire time they have been like \"lol fuck off\". . Microsoft is buying up open source these days. Perhaps a developer-centric laptop is next",
+      "char_length": 277
+    },
+    {
+      "id": 12763,
+      "entity": "WorldOfCraft",
+      "sentiment": "Positive",
+      "text": "I love World of Warcraft; (",
+      "char_length": 27
+    },
+    {
+      "id": 9114,
+      "entity": "Nvidia",
+      "sentiment": "Neutral",
+      "text": "[UNK] why? But why why? We buy 2 cards convinced of that Sli nvidia is the TOP... AND AT YOU! There and then! THAT'R S NO GOOD!! NO NEW GAMES THE SUPPORT SLI!! Wow what constitutes a disappointment... Doom eternal... No sorry... a Call of duty modern warfare till 2019.. No sorry... Good doing job!",
+      "char_length": 298
+    },
+    {
+      "id": 9339,
+      "entity": "Overwatch",
+      "sentiment": "Neutral",
+      "text": "... I remember little Brigitte running around the Overwatch base...... I mean it was weird we had a Bring Your Child To Games zoo, but it was cute.",
+      "char_length": 147
+    },
+    {
+      "id": 1922,
+      "entity": "CallOfDutyBlackopsColdWar",
+      "sentiment": "Negative",
+      "text": "Can we keep warzone as the COD br and simply update that and then just focus in multiplayer for this year pls. Multiplayer is being suffering because of low impact on br in the last 15 games",
+      "char_length": 190
+    },
+    {
+      "id": 12716,
+      "entity": "WorldOfCraft",
+      "sentiment": "Neutral",
+      "text": "I've just earned [5 daily quest]!",
+      "char_length": 33
+    },
+    {
+      "id": 4960,
+      "entity": "GrandTheftAuto(GTA)",
+      "sentiment": "Neutral",
+      "text": "The Grand<unk> Auto impacts the entertainment industry thepoliticalwarroom.com/how-grand-thef... []",
+      "char_length": 99
+    },
+    {
+      "id": 7274,
+      "entity": "LeagueOfLegends",
+      "sentiment": "Irrelevant",
+      "text": "End of story.",
+      "char_length": 13
+    },
+    {
+      "id": 2008,
+      "entity": "CallOfDuty",
+      "sentiment": "Irrelevant",
+      "text": "It was amazing when we saw 6 balls built in",
+      "char_length": 43
+    },
+    {
+      "id": 6979,
+      "entity": "johnson&johnson",
+      "sentiment": "Negative",
+      "text": "first five astrazeneca now plus j & j... we we're screwed",
+      "char_length": 57
+    },
+    {
+      "id": 2262,
+      "entity": "CallOfDuty",
+      "sentiment": "Irrelevant",
+      "text": "* Janis * OH. MY. GAWD.",
+      "char_length": 23
+    },
+    {
+      "id": 4778,
+      "entity": "Google",
+      "sentiment": "Negative",
+      "text": "My google hangouts is not working, my laptop won\u2019t restart or work and I had work to finish before this next meeting at half 4. I think it\u2019s time a call it a day",
+      "char_length": 161
+    },
+    {
+      "id": 538,
+      "entity": "ApexLegends",
+      "sentiment": "Positive",
+      "text": "Season 4 @ PlayApex is pretty fun.",
+      "char_length": 34
+    },
+    {
+      "id": 9236,
+      "entity": "Overwatch",
+      "sentiment": "Neutral",
+      "text": "Anyone else read that and think people were tripling the literal damage output?",
+      "char_length": 79
+    },
+    {
+      "id": 11286,
+      "entity": "TomClancysRainbowSix",
+      "sentiment": "Positive",
+      "text": "Thanks for coming by the stream everyone! Had some angry magical moments, stupid happy moments there and moments where siege crashed my PC the lol",
+      "char_length": 146
+    },
+    {
+      "id": 3654,
+      "entity": "Cyberpunk2077",
+      "sentiment": "Neutral",
+      "text": "Current Cyberpunk 2077 program Delayed until September 17th at 2020 Source stadiasource. com / full article / 268 / Cy \u2026",
+      "char_length": 120
+    },
+    {
+      "id": 10879,
+      "entity": "TomClancysGhostRecon",
+      "sentiment": "Positive",
+      "text": "Bernthal is terrific as Walker in Breakpoint.",
+      "char_length": 45
+    },
+    {
+      "id": 11728,
+      "entity": "Verizon",
+      "sentiment": "Neutral",
+      "text": "chart leading listeners to boycott:.. @foxnews. no. @ProcterGamble. do.<unk>. f. am. a. x. 5. @amazon. @KraftHeinzCo. @pfizer. @BestBuySupport. @SandalsResorts. @PetSmart.. youtu.be/eMEcrTBMdjY",
+      "char_length": 193
+    },
+    {
+      "id": 1143,
+      "entity": "AssassinsCreed",
+      "sentiment": "Irrelevant",
+      "text": "No @ assassinscreed gameplay.",
+      "char_length": 29
+    },
+    {
+      "id": 2544,
+      "entity": "Borderlands",
+      "sentiment": "Negative",
+      "text": "I went to bed at 4am. 5 hours before that at 9pm i was farming Graveward. It is now almost 4pm and i went to farm Graveward again and on my first kill i tried to loot the vault but it was already looted! @Borderlands @Ki11ersix what is wrong with my game it is the broken.",
+      "char_length": 272
+    },
+    {
+      "id": 11403,
+      "entity": "TomClancysRainbowSix",
+      "sentiment": "Positive",
+      "text": "I missed @Rainbow6Game so much.",
+      "char_length": 31
+    },
+    {
+      "id": 3285,
+      "entity": "Facebook",
+      "sentiment": "Irrelevant",
+      "text": "ift.tt/37Fufaa - Neil Patel wastes a lifetime of talent on buying Facebook fans and has no intention of stopping. Below is part 1 of 2... Episode 024: [Part 1] I blew $12,512 this year on Facebook Music, & I\u2019m Not Going to Stop. Here\u2019s Why for Neil Patel.. Colin Patel is a New Personal T...",
+      "char_length": 291
+    },
+    {
+      "id": 1160,
+      "entity": "AssassinsCreed",
+      "sentiment": "Positive",
+      "text": "I'm pretty damned excited",
+      "char_length": 25
+    },
+    {
+      "id": 8093,
+      "entity": "Microsoft",
+      "sentiment": "Negative",
+      "text": "Microsoft and Mac= the worst combination.",
+      "char_length": 41
+    },
+    {
+      "id": 9705,
+      "entity": "PlayStation5(PS5)",
+      "sentiment": "Irrelevant",
+      "text": "Kena is Easily another of my top 5 most anticipated 2021",
+      "char_length": 56
+    },
+    {
+      "id": 912,
+      "entity": "AssassinsCreed",
+      "sentiment": "Positive",
+      "text": "That Assassin \u2019 s Torres Creed neckles is so cool out [UNK]",
+      "char_length": 59
+    },
+    {
+      "id": 12421,
+      "entity": "WorldOfCraft",
+      "sentiment": "Neutral",
+      "text": "Blizzard confirms that World World Warcraft: Shadowlands isn't coming the consoles. Those Xbox Series X rumours are nonsense.<unk>.. .. overclock3d.net/news/software/\u2026 https://t.co/le7OYSBRGF]",
+      "char_length": 192
+    },
+    {
+      "id": 2149,
+      "entity": "CallOfDuty",
+      "sentiment": "Irrelevant",
+      "text": "I just went up 20 steps in the waiting room, it's time to go to bed",
+      "char_length": 67
+    },
+    {
+      "id": 930,
+      "entity": "AssassinsCreed",
+      "sentiment": "Positive",
+      "text": ". I love helping you guys..",
+      "char_length": 27
+    },
+    {
+      "id": 2072,
+      "entity": "CallOfDuty",
+      "sentiment": "Negative",
+      "text": "Call of duty this thing is broken have done it and nothing is unlocking or counting towards it what's going broke",
+      "char_length": 113
+    },
+    {
+      "id": 8273,
+      "entity": "Microsoft",
+      "sentiment": "Positive",
+      "text": "How I'm like an Xbox Club guy, but this looks INCREDIBLE. Fight back, Ms Microsoft!!!",
+      "char_length": 85
+    },
+    {
+      "id": 8072,
+      "entity": "Microsoft",
+      "sentiment": "Neutral",
+      "text": "Bill Allen Gates How Sr Is Dead. Microsoft Magazine Co - The Founder, 2006 Bill Gates'Father Dies... Details : Wikipedia forum. seaija. in / index. end php? topi 1 \u2026..",
+      "char_length": 167
+    },
+    {
+      "id": 1518,
+      "entity": "Battlefield",
+      "sentiment": "Irrelevant",
+      "text": "A ban for Battlefield IV player wtfwolgyftw suddenly occurred<unk> DETAILS: bf4db.com/player/ban/237\u2026",
+      "char_length": 101
+    },
+    {
+      "id": 1552,
+      "entity": "Battlefield",
+      "sentiment": "Irrelevant",
+      "text": "A ban for Battlefield 4 player antonio _ 28766 has occurred see details: bf4db.com / player / ban / 113...",
+      "char_length": 106
+    },
+    {
+      "id": 13150,
+      "entity": "Xbox(Xseries)",
+      "sentiment": "Irrelevant",
+      "text": "@ KEEMSTAR Ya know, the social media STI?.... is going for the video game blogger @ TheQuartering... Who?! Who fuckin 'cares... Just wanted to point where KEEM is at the life. \"Painfully lame...\"",
+      "char_length": 195
+    },
+    {
+      "id": 950,
+      "entity": "AssassinsCreed",
+      "sentiment": "Positive",
+      "text": "I'm excited just as fudge for the brand new Assassins of creed game, the series and is still near and dear as to my heart... but I'm low key hoping this game sounds less rpg and more classic on Asscreed.",
+      "char_length": 203
+    },
+    {
+      "id": 7263,
+      "entity": "LeagueOfLegends",
+      "sentiment": "Neutral",
+      "text": "OMG WT * TF ENEMY BASE DEVELOPED??",
+      "char_length": 34
+    },
+    {
+      "id": 11849,
+      "entity": "Verizon",
+      "sentiment": "Negative",
+      "text": "\u2066@Verizon\u2069 \u2066@CityofGilroy\u2069 Down close as we reach town, 5G speed is over 50mbps. In between? Abysmal... Block of 7000 Camron a, Gilroy, CA speedtest.net/my-result/i/42\u2026",
+      "char_length": 168
+    },
+    {
+      "id": 9884,
+      "entity": "PlayStation5(PS5)",
+      "sentiment": "Positive",
+      "text": "The ps5 looks hella pretty",
+      "char_length": 26
+    },
+    {
+      "id": 4738,
+      "entity": "Google",
+      "sentiment": "Positive",
+      "text": "The best part of the quarter is typing all your courses into your Google calendar... that's it. After that, everything gets shitty.",
+      "char_length": 131
+    },
+    {
+      "id": 4575,
+      "entity": "Google",
+      "sentiment": "Neutral",
+      "text": "First last few days",
+      "char_length": 19
+    },
+    {
+      "id": 10841,
+      "entity": "TomClancysGhostRecon",
+      "sentiment": "Negative",
+      "text": "@ GhostRecon @ UbisoftSupport please fix ghost Recon Breakpoint. It keeps my team out of the game and comes with a bug. Done over the last 24 hours",
+      "char_length": 147
+    },
+    {
+      "id": 583,
+      "entity": "ApexLegends",
+      "sentiment": "Negative",
+      "text": "2 for now while during end game i wanna sneak up back off the lobby!! wtf yo @PlayApex",
+      "char_length": 86
+    },
+    {
+      "id": 1941,
+      "entity": "CallOfDutyBlackopsColdWar",
+      "sentiment": "Negative",
+      "text": "Fuck this game already",
+      "char_length": 22
+    },
+    {
+      "id": 6704,
+      "entity": "Fortnite",
+      "sentiment": "Irrelevant",
+      "text": "love not even being able to vod review bc whenever i try to not have fortnite door open with obs at almost the specific same time fort crashes",
+      "char_length": 142
+    },
+    {
+      "id": 364,
+      "entity": "Amazon",
+      "sentiment": "Irrelevant",
+      "text": "Congratulations to @ninamanning78 on the milestone. Hope you have a fabulous day even that your book flies.",
+      "char_length": 107
+    },
+    {
+      "id": 2014,
+      "entity": "CallOfDuty",
+      "sentiment": "Negative",
+      "text": "Anyone who thinks otherwise perfect media can't be destroyed by their message, morality, or aesthetics should sit down and explain why they don't like duty games, especially if they're a fan of shooters",
+      "char_length": 202
+    },
+    {
+      "id": 8472,
+      "entity": "NBA2K",
+      "sentiment": "Positive",
+      "text": "This feels awesome.",
+      "char_length": 19
+    },
+    {
+      "id": 9832,
+      "entity": "PlayStation5(PS5)",
+      "sentiment": "Positive",
+      "text": "Only PS5 and the Xbox Series X Can Rescue GameStop\u2019s Death Spiral. . GameStop plans to save money by closing more than 300 stores, but it seems like only the PS5 and Xbox Series X can rescue the company.. The post Only PS5 and the Xbox Series X .... is.gd/WOE7bH",
+      "char_length": 262
+    },
+    {
+      "id": 7398,
+      "entity": "LeagueOfLegends",
+      "sentiment": "Positive",
+      "text": "Playing.: D",
+      "char_length": 11
+    },
+    {
+      "id": 3832,
+      "entity": "Cyberpunk2077",
+      "sentiment": "Irrelevant",
+      "text": "i have not seen ABT's comments Cyberpunk 2077 being pornographic but someone told me it is and I'm kind of disappointed? i really hope it doesn't look like it actually",
+      "char_length": 167
+    },
+    {
+      "id": 7254,
+      "entity": "LeagueOfLegends",
+      "sentiment": "Neutral",
+      "text": "Check out my video!  ",
+      "char_length": 21
+    },
+    {
+      "id": 6832,
+      "entity": "johnson&johnson",
+      "sentiment": "Positive",
+      "text": "Imagine Johnson & Johnson (Sudafed) would be too happy about this award. Now imagine Messi & Ronaldo playing in each same team",
+      "char_length": 126
+    },
+    {
+      "id": 5556,
+      "entity": "Hearthstone",
+      "sentiment": "Neutral",
+      "text": "Eastern Group AEL Cup. R1 Bye. R2 WLW. R3 WW. Winner Final LL. Champions League Final. Grand Final LWL... Repping UNWL for Finals. @ AUesportsleague @ Blizzard _ ANZ @ PlayHearthstone. Thx to @ MendrixNm and @ yaowayy for brilliant casting, lmk if you want to learn how to pronounce Ulquiorra;) pic.facebook.com / DGQmuHzS1r",
+      "char_length": 324
+    },
+    {
+      "id": 9795,
+      "entity": "PlayStation5(PS5)",
+      "sentiment": "Negative",
+      "text": "Fuck a Xbox Sony PS5...I\u2019m getting my SouljaStation",
+      "char_length": 51
+    },
+    {
+      "id": 9512,
+      "entity": "Overwatch",
+      "sentiment": "Irrelevant",
+      "text": "me four hours ago: I feel........ something is happening in surveillance... reddit post from four hours ago that I just saw me checking my phone in bed: hero bans don't come you fucking idiots stop spreading rumors",
+      "char_length": 214
+    },
+    {
+      "id": 13145,
+      "entity": "Xbox(Xseries)",
+      "sentiment": "Neutral",
+      "text": "360 Xbox Series X \" Has Been A Real Lie \" | Worldwide Developer Jared Speaks Coming Out On Insane Next Gen... com youtu. be / x vxHzaryQzj8",
+      "char_length": 139
+    },
+    {
+      "id": 8709,
+      "entity": "NBA2K",
+      "sentiment": "Irrelevant",
+      "text": "Best of the Luck to watch @RazorbackMBB ever alum since @PatBev21 tonight is in NBA playoff 2K semis & playoffs final! @ArkRazorbacks even fans will be tuning in to @ESPN to cheer you on!",
+      "char_length": 187
+    },
+    {
+      "id": 9553,
+      "entity": "Overwatch",
+      "sentiment": "Irrelevant",
+      "text": "Another day without playing Overwatch on my computer because my computer is dumb like that.",
+      "char_length": 91
+    },
+    {
+      "id": 10888,
+      "entity": "TomClancysGhostRecon",
+      "sentiment": "Negative",
+      "text": "had to jump underground to get a double kill..",
+      "char_length": 46
+    },
+    {
+      "id": 2829,
+      "entity": "Dota2",
+      "sentiment": "Positive",
+      "text": "@micowen_  one d d best moments HAHAHHHAHA",
+      "char_length": 42
+    },
+    {
+      "id": 7006,
+      "entity": "johnson&johnson",
+      "sentiment": "Negative",
+      "text": "... Legit tho the worrying guy thing is that if the vaccine Johnson & Hyde Johnson gives makes I \u2019 m probably NOT going to get it SINCE THEY NO GAVE THOUSANDS ONE OF PEOPLE CANCER. I \u2019 m gonna... be like \u201c no give me half the little german vaccine please you \u201d",
+      "char_length": 260
+    },
+    {
+      "id": 2488,
+      "entity": "Borderlands",
+      "sentiment": "Positive",
+      "text": "It",
+      "char_length": 2
+    },
+    {
+      "id": 2827,
+      "entity": "Dota2",
+      "sentiment": "Irrelevant",
+      "text": "again looked at r / dota2. Mistake. this sub is officially a jesspool. i hate reddit.",
+      "char_length": 85
+    },
+    {
+      "id": 1735,
+      "entity": "CallOfDutyBlackopsColdWar",
+      "sentiment": "Neutral",
+      "text": "Everyone got so hyped for",
+      "char_length": 25
+    },
+    {
+      "id": 436,
+      "entity": "ApexLegends",
+      "sentiment": "Irrelevant",
+      "text": "I love you so much I want to marry you",
+      "char_length": 38
+    },
+    {
+      "id": 4440,
+      "entity": "Google",
+      "sentiment": "Irrelevant",
+      "text": "I can't believe @ realDonaldTrump lied.",
+      "char_length": 39
+    },
+    {
+      "id": 4219,
+      "entity": "CS-GO",
+      "sentiment": "Irrelevant",
+      "text": "to those who still play csgo in 2020 in 4: 3. What the hell are you doing?",
+      "char_length": 74
+    },
+    {
+      "id": 6491,
+      "entity": "Fortnite",
+      "sentiment": "Irrelevant",
+      "text": "Love goes out to kids tweets saying Dead game to fornite and posting this and they reply and it's the funniest thing ever pic.twitter.com / YXusajurie",
+      "char_length": 150
+    },
+    {
+      "id": 7168,
+      "entity": "johnson&johnson",
+      "sentiment": "Neutral",
+      "text": "L\u00f3pez. Nice. I will use this to compare and see what tone of foundation I should choose.",
+      "char_length": 88
+    },
+    {
+      "id": 10795,
+      "entity": "RedDeadRedemption(RDR)",
+      "sentiment": "Positive",
+      "text": "It's been a long time. PewPew Red Dead Redemption 2. twitch.tv / stabbytabbycat",
+      "char_length": 79
+    },
+    {
+      "id": 5247,
+      "entity": "Hearthstone",
+      "sentiment": "Positive",
+      "text": "@PlatinumWoW654 well to add to your Darkmoon Faire = Old Gods video. The teaser for the next Hearthstone expansion is quite \"Eye Opening\". . ",
+      "char_length": 141
+    },
+    {
+      "id": 3836,
+      "entity": "Cyberpunk2077",
+      "sentiment": "Negative",
+      "text": "@CyberpunkGame and I'a ll just get a refund going and wait until release to purchase since if y'least all have lost your minds.",
+      "char_length": 127
+    },
+    {
+      "id": 854,
+      "entity": "AssassinsCreed",
+      "sentiment": "Positive",
+      "text": "Oh my this looks amazing.",
+      "char_length": 25
+    },
+    {
+      "id": 2593,
+      "entity": "Borderlands",
+      "sentiment": "Positive",
+      "text": "My favourite games I guess?. . 1. Minecraft. Can\u2019t ever beat that.. 2. Plants Vs. Zombies - First video game I played. 3. Borderlands 2 - Thank @DarkyMaine for this. 4. Undertale/Deltarune. 5. Mario Kart 8 Deluxe. . Dibs on @Art_Author and @Robang592 to try this",
+      "char_length": 262
+    },
+    {
+      "id": 6551,
+      "entity": "Fortnite",
+      "sentiment": "Irrelevant",
+      "text": "opusip.co.uk/2020/08/18/for\u2026 Florida Tourist Attraction Suing Epic Over Trademark Infringement in Fortnite - GameRant . Florida Tourist Attrac...",
+      "char_length": 145
+    },
+    {
+      "id": 2127,
+      "entity": "CallOfDuty",
+      "sentiment": "Neutral",
+      "text": "WE FINALLY WON! 2. Andrew and Jess || Call um Tournament: Warzone youtu.be/HC9mNHeNzIk via @YouTube FINALLY GOT IN WARZONE YESSSSS. Like/comment/sub. MLG.tv/Chrisifix",
+      "char_length": 166
+    },
+    {
+      "id": 2296,
+      "entity": "CallOfDuty",
+      "sentiment": "Irrelevant",
+      "text": "Last night I had 3 boys! I was excited.",
+      "char_length": 39
+    },
+    {
+      "id": 13165,
+      "entity": "Xbox(Xseries)",
+      "sentiment": "Irrelevant",
+      "text": "lol what a terrible troll video. Keep bringing that energy when you see it compare worse on the PS5 https://t.co/qdL8W6mTNM",
+      "char_length": 123
+    },
+    {
+      "id": 6641,
+      "entity": "Fortnite",
+      "sentiment": "Irrelevant",
+      "text": "The best way to protect Samsung Galaxy Note10 + buff.ly / 2zkjU.",
+      "char_length": 64
+    },
+    {
+      "id": 2613,
+      "entity": "Borderlands",
+      "sentiment": "Neutral",
+      "text": "Stay tuned for the next week's episode of Hello Reddit, my boss is already fucking you best friend, what should I do?\"...",
+      "char_length": 121
+    },
+    {
+      "id": 3038,
+      "entity": "Dota2",
+      "sentiment": "Positive",
+      "text": "Lovely number",
+      "char_length": 13
+    },
+    {
+      "id": 9110,
+      "entity": "Nvidia",
+      "sentiment": "Neutral",
+      "text": "the beast trading PC. It\u2019s insane and yes seems like LEDs. Clearly.",
+      "char_length": 67
+    },
+    {
+      "id": 1683,
+      "entity": "CallOfDutyBlackopsColdWar",
+      "sentiment": "Irrelevant",
+      "text": "If you classify your gender as \"secret,\" that's honestly cool as damn.",
+      "char_length": 70
+    },
+    {
+      "id": 10378,
+      "entity": "PlayerUnknownsBattlegrounds(PUBG)",
+      "sentiment": "Positive",
+      "text": "Good in the live game different games starting with pubg! LOVE YOUR FACES, LOVE YOUR STUFF!.................................................. @ siege _ is _ life @ youtube @ twitch @ lurkforce @ rainbow6game _ us @ rainbowsix.game @ royalestreamers @ binxtvinc",
+      "char_length": 260
+    },
+    {
+      "id": 3874,
+      "entity": "Cyberpunk2077",
+      "sentiment": "Positive",
+      "text": "A MONTH UNTIL CYBERPUNK 2077 AND I HAVE NO MONEY TO BUY THAT SHOTH",
+      "char_length": 66
+    },
+    {
+      "id": 11530,
+      "entity": "TomClancysRainbowSix",
+      "sentiment": "Neutral",
+      "text": "Are you also in @ PlayVALORANT? I live... tch.tv / d3ad1y........ @ SupStreamers. @ WooRetweets. @ Blazeds. @ SmallStreamsC. @ SmallStreamsR",
+      "char_length": 140
+    },
+    {
+      "id": 9120,
+      "entity": "Nvidia",
+      "sentiment": "Neutral",
+      "text": "Nvidia does some shady shit, maybe they gotta give them credit for also bringing the killer features.",
+      "char_length": 101
+    },
+    {
+      "id": 10847,
+      "entity": "TomClancysGhostRecon",
+      "sentiment": "Neutral",
+      "text": " ",
+      "char_length": 1
+    },
+    {
+      "id": 8481,
+      "entity": "NBA2K",
+      "sentiment": "Negative",
+      "text": "It's a pity I don't play 2K anymore: c",
+      "char_length": 38
+    },
+    {
+      "id": 7822,
+      "entity": "MaddenNFL",
+      "sentiment": "Negative",
+      "text": "@EAMaddenNFL did y ou \u2019 all finally upgrade franchise mode? Y \u2019 all real stuff has now been in TRASH",
+      "char_length": 100
+    },
+    {
+      "id": 6294,
+      "entity": "FIFA",
+      "sentiment": "Negative",
+      "text": "A sad Battlefield fan laments: (",
+      "char_length": 32
+    },
+    {
+      "id": 11078,
+      "entity": "TomClancysGhostRecon",
+      "sentiment": "Negative",
+      "text": "@ Ubisoft Support HELLO!?! Can I please get some information about when breakpoint will be working on Xbox One? Tried all suggested workpoint and can not open a ticket as my Ubisoft account won't let me in",
+      "char_length": 205
+    },
+    {
+      "id": 4284,
+      "entity": "CS-GO",
+      "sentiment": "Irrelevant",
+      "text": ".@Maniac_CSGO won't eat his cereal \ud83e\udd44 pic.twitter.com/jGvn72st33",
+      "char_length": 63
+    },
+    {
+      "id": 7756,
+      "entity": "MaddenNFL",
+      "sentiment": "Negative",
+      "text": "@EAMaddenNFL It wouldent hurts to give offensive line men X factors it could almost be like momentum shift but how you get them into the zone is by not letting their quarterback get sacked or consecutive played without taking a loss of yards just throwing my opinion out there",
+      "char_length": 276
+    },
+    {
+      "id": 3350,
+      "entity": "Facebook",
+      "sentiment": "Irrelevant",
+      "text": "My cousin better please not have is ass out there with them bitches. I still still don't totally understand why black people even want to be wanted police officers... Bill That's still some sucka bit shit if you ask me. I too also don't give a single fuck if your dad is an officer either",
+      "char_length": 288
+    },
+    {
+      "id": 10308,
+      "entity": "PlayerUnknownsBattlegrounds(PUBG)",
+      "sentiment": "Irrelevant",
+      "text": "Bro Indian cult industry is red fkin dumb. Literally everyone will follow a blind rumour. Who tf told how SSR played a part of that dumbass pubg rip India game? Get our own braincells and verify facts straight",
+      "char_length": 209
+    },
+    {
+      "id": 8930,
+      "entity": "Nvidia",
+      "sentiment": "Neutral",
+      "text": "Cisco and NVIDIA Partner to Deliver a Premium Cloud Experience on Any Device, Anywhere Image.lu/FQNeh https://t.co/eeQA2fZePs]",
+      "char_length": 126
+    },
+    {
+      "id": 5878,
+      "entity": "HomeDepot",
+      "sentiment": "Irrelevant",
+      "text": "I don't have a boyfriend other than my best friend... yes. Exactly that. Sometimes I don't know I'm driving.",
+      "char_length": 108
+    },
+    {
+      "id": 7349,
+      "entity": "LeagueOfLegends",
+      "sentiment": "Positive",
+      "text": "My games crew had a League of legends clash yesterday, and this is how all of my texting apps looked like.. I love these assholes xD pic.twitter.com/NT3CfSlteN",
+      "char_length": 159
+    },
+    {
+      "id": 6292,
+      "entity": "FIFA",
+      "sentiment": "Irrelevant",
+      "text": "Mohamed Salah is simply the best It's exceptional.",
+      "char_length": 50
+    },
+    {
+      "id": 8187,
+      "entity": "Microsoft",
+      "sentiment": "Negative",
+      "text": "W Outlook tlhe yone ya lapisa... You end up deleting important emails... This shit needs to change!! RhandlerR RhandlerR pic.twitter.com/JXCM7C6Xvk",
+      "char_length": 147
+    },
+    {
+      "id": 5157,
+      "entity": "GrandTheftAuto(GTA)",
+      "sentiment": "Negative",
+      "text": "I liked GTA ok til I went to pet a cute wolf when the character stomped it to death instead.  I didn\u2019t need to kill you, mr. fluffykins.",
+      "char_length": 136
+    },
+    {
+      "id": 11300,
+      "entity": "TomClancysRainbowSix",
+      "sentiment": "Positive",
+      "text": "having watched this trailer sooooo loud already, and still giving me inspiration to write up short stories inspired by it during my free journal @Rainbow6Game",
+      "char_length": 158
+    },
+    {
+      "id": 256,
+      "entity": "Amazon",
+      "sentiment": "Negative",
+      "text": "I ordered so much off amazon, yet the skates I want are still out of stock \ud83e\udd7a",
+      "char_length": 76
+    },
+    {
+      "id": 11585,
+      "entity": "TomClancysRainbowSix",
+      "sentiment": "Neutral",
+      "text": "The [BBC] BadBoysCompany Newspaper! paper.li / BadBoysCo _ Clan...",
+      "char_length": 66
+    },
+    {
+      "id": 6446,
+      "entity": "Fortnite",
+      "sentiment": "Negative",
+      "text": "If Lady Gaga were to give one of these fortnightly concerts, I would absolutely make a report, but I would hate myself for it.",
+      "char_length": 126
+    }
+  ]
+}
